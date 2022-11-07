@@ -21,3 +21,17 @@ body
 {
     font-size: 20px;
 }
+
+#cabecera
+{
+    height: 80px;
+    border-radius: 75px 75px 0px 1px;
+-moz-border-radius: 75px 75px 0px 1px;
+-webkit-border-radius: 75px 75px 0px 1px;
+border: 0px solid #000000;
+background: rgba(248,80,50,1);
+background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+-webkit-box-shadow: inset 10px 10px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 10px 5px -1px rgba(0,0,0,0.75);
+box-shadow: inset 10px 10px 5px -1px rgba(0,0,0,0.75);
+}
